@@ -1,0 +1,16 @@
+database:
+  driverName: mysql
+  host: 127.0.0.1
+  # host: www.degim.top
+  port: 3306
+  # port: 33161
+  database: douyin
+  # username: dousheng
+  # password: dousheng123.
+  username: root
+  password: 123456
+  charset: utf8mb4
+video:
+  urlPrefix: http://192.168.1.10:8080/static/
+  videoPath: http://192.168.1.10:8080/static/videos/
+  coverPath: http://192.168.1.10:8080/static/covers/
